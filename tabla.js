@@ -40,11 +40,13 @@ function mostrarTabla(tabla) {
                 <h3>Edad:</h3>
                 <p>${empleado.age}</p>
                 <h3>Salario:</h3>
-                <p>${empleado.salario}</p>
+                <p>${empleado.salary}</p>
             </div>
         `;
     });
 }
+
+
 
 // Añadir el evento click al botón
 document.getElementById("mostrarTablaBtn").addEventListener("click", () => {
